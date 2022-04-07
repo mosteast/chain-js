@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "es6",
+    "lib": ["esnext"],
+    "esModuleInterop": true,
+    "declaration": true,
+    "sourceMap": false,
+    "outDir": "build",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true
+  },
+  "exclude": ["node_modules", "build", "tmp", "test", "**/*.test.ts"]
+}
