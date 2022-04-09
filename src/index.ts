@@ -1,3 +1,4 @@
+export * from './cli/cli';
 export * from './chain/utility/hash';
 export * from './chain/utility/hash_block';
 export * from './chain/utility/serialize';
