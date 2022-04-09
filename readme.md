@@ -64,7 +64,7 @@ verify(block, '17a54ea93574eefba6d030cbee25c97ec718d55852384b0a870547bcd7ff6447'
 verify(block, 'invalid_hash'); // false
 ```
 
-### `serialize` - Serialize a block into a stable string for later use (like hashing)
+### `serialize` - Serialize a block into a stable string
 
 ```typescript
 const block: T_block = {
