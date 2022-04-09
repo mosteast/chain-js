@@ -14,9 +14,13 @@ import { verify, serialize /*...*/ } from '@mosteast/chain';
 
 ### CLI
 
+#### `verify` - Verify a block with a given hash string
+
 ```bash
 $ chain verify '{"ts":1634634273184,"content":"a","format":"text"}' dd69cc70c38242cfca1ddcb67d2d19fe3cfc3bd1868b3dbb176dfcfde8909e8b
 ```
+
+### `hash` - Calculate hash from a serialized block
 
 ```bash
 $ chain hash '{"ts":1634634273184,"content":"a","format":"text"}'
