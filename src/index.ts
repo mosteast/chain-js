@@ -1,4 +1,4 @@
-export * from './cli/cli';
+export * from './cli/main';
 export * from './chain/utility/hash';
 export * from './chain/utility/hash_block';
 export * from './chain/utility/serialize';
