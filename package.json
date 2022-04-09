@@ -1,6 +1,6 @@
 {
   "name": "@mosteast/chain",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "description": "Mosteast general data chain for JavaScript",
   "homepage": "https://github.com/mosteast/chain-js",
   "repository": "github:mosteast/chain-js",
