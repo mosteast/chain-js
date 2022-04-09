@@ -1,3 +1,4 @@
 #!/usr/bin/env node
+import { cli } from './main';
 
-require('./main');
+cli.argv;

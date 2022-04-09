@@ -4,7 +4,7 @@ import { serialize } from '../chain/utility/serialize';
 import { verify } from '../chain/utility/verify';
 import { json_parse } from './utility/json_parse';
 
-yargs
+export const cli = yargs
   .command({
     command: 'verify <block> <hash>',
     describe: 'Verify a block with hash',
@@ -42,4 +42,4 @@ yargs
       console.info(hash(serialize(parsed)));
     },
   })
-  .demandCommand().argv;
+  .demandCommand();
